@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90E0BE120FB624300F862CA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90E0BE020FB624300F862CA /* MapKit.framework */; };
+		D90E0BE320FCBAC600F862CA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90E0BE220FCBAC600F862CA /* MapViewController.swift */; };
+		D9106DA520F20B28008A1138 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9106DA420F20B28008A1138 /* ConversionViewController.swift */; };
 		D94C9EBE20DBAF8900034BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9EBD20DBAF8900034BAC /* AppDelegate.swift */; };
-		D94C9EC020DBAF8900034BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9EBF20DBAF8900034BAC /* ViewController.swift */; };
 		D94C9EC320DBAF8900034BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94C9EC120DBAF8900034BAC /* Main.storyboard */; };
 		D94C9EC520DBAF8B00034BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94C9EC420DBAF8B00034BAC /* Assets.xcassets */; };
 		D94C9EC820DBAF8B00034BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94C9EC620DBAF8B00034BAC /* LaunchScreen.storyboard */; };
 		D94C9ED320DBAF8B00034BAC /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9ED220DBAF8B00034BAC /* WorldTrotterTests.swift */; };
 		D94C9EDE20DBAF8B00034BAC /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94C9EDD20DBAF8B00034BAC /* WorldTrotterUITests.swift */; };
+		D9E03CCF212FA8E800465F86 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E03CCE212FA8E800465F86 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D90E0BE020FB624300F862CA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D90E0BE220FCBAC600F862CA /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D9106DA420F20B28008A1138 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		D94C9EBA20DBAF8900034BAC /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94C9EBD20DBAF8900034BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D94C9EBF20DBAF8900034BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D94C9EC220DBAF8900034BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D94C9EC420DBAF8B00034BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94C9EC720DBAF8B00034BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		D94C9ED920DBAF8B00034BAC /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94C9EDD20DBAF8B00034BAC /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		D94C9EDF20DBAF8B00034BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9E03CCE212FA8E800465F86 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90E0BE120FB624300F862CA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90E0BDF20FB624300F862CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90E0BE020FB624300F862CA /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D94C9EB120DBAF8900034BAC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,7 @@
 				D94C9ED120DBAF8B00034BAC /* WorldTrotterTests */,
 				D94C9EDC20DBAF8B00034BAC /* WorldTrotterUITests */,
 				D94C9EBB20DBAF8900034BAC /* Products */,
+				D90E0BDF20FB624300F862CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +113,11 @@
 		D94C9EBC20DBAF8900034BAC /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				D9106DA420F20B28008A1138 /* ConversionViewController.swift */,
 				D94C9EBD20DBAF8900034BAC /* AppDelegate.swift */,
-				D94C9EBF20DBAF8900034BAC /* ViewController.swift */,
 				D94C9EC120DBAF8900034BAC /* Main.storyboard */,
+				D9E03CCE212FA8E800465F86 /* WebViewController.swift */,
+				D90E0BE220FCBAC600F862CA /* MapViewController.swift */,
 				D94C9EC420DBAF8B00034BAC /* Assets.xcassets */,
 				D94C9EC620DBAF8B00034BAC /* LaunchScreen.storyboard */,
 				D94C9EC920DBAF8B00034BAC /* Info.plist */,
@@ -256,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94C9EC020DBAF8900034BAC /* ViewController.swift in Sources */,
+				D9106DA520F20B28008A1138 /* ConversionViewController.swift in Sources */,
+				D90E0BE320FCBAC600F862CA /* MapViewController.swift in Sources */,
 				D94C9EBE20DBAF8900034BAC /* AppDelegate.swift in Sources */,
+				D9E03CCF212FA8E800465F86 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +449,7 @@
 		D94C9EE320DBAF8B00034BAC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -446,7 +466,7 @@
 		D94C9EE420DBAF8B00034BAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
